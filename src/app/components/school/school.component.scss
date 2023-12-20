@@ -1,0 +1,22 @@
+.hero{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+
+    .hero-description{
+        width: 50%;
+        text-align: center;
+    }
+
+    .link{
+        margin-top: 20px;
+        color: rgb(87, 132, 172);
+    }
+}
+
+.school-container{
+    // height: 100vh;
+    height: auto;
+    
+}

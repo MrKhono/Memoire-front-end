@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { SuscribeComponent } from './components/suscribe/suscribe.component';
+import { SchoolComponent } from './components/school/school.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SuscribeComponent } from './components/suscribe/suscribe.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    SuscribeComponent
+    SuscribeComponent,
+    SchoolComponent
   ],
   imports: [
     BrowserModule,
