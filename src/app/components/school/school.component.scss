@@ -19,4 +19,63 @@
     // height: 100vh;
     height: auto;
     
+    .school-content{
+        width: 100%;
+        margin-top: 60px;
+        .title{
+            margin-left: 70px;
+            h2{
+                font-size: 35px;
+                font-weight: 700;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+        span{
+            margin-left: 70px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .suggestion{
+            width: 90%;
+            height: 320px;
+            margin: 20px auto;
+            border: 0.5px solid rgb(153, 153, 153);
+            display: flex;
+            align-items: center;
+            background: rgba(205, 202, 202, 0.154);
+
+            .suggestion-content{
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+                column-gap: 20px;
+
+                img{
+                    width: 450px;
+                    height: 300px;
+                    background-size: cover;
+                }
+
+                .suggestion-description{
+                    .title2{
+                        font-weight: 700;
+                        font-size: 30px;
+                    }
+                    p{
+                        width: 70%;
+                        color: black;
+                    }
+                    i{
+                        color: rgb(198, 198, 78);
+                    }
+                    i:last-child{
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+
+        
 }
+
