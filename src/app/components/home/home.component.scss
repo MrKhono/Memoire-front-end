@@ -28,6 +28,9 @@
                 -webkit-backdrop-filter: blur(2.5px);
                 color: white;
                 border: none;
+                &:focus{
+                    outline: none;
+                }
             }
 
             .search-input::placeholder{
