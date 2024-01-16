@@ -273,7 +273,7 @@
             padding: 10px 0 10px 0;
         }
     }
-    .box1{
+    .box1, .box2{
         width: 300px;
         height: 200px;
         background-color: rgb(255,255,255,0.3);
@@ -380,6 +380,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+
+    h2{
+        margin-top: 20px;
+    }
 
     .event-content{
         width: 90%;

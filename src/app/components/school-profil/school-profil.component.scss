@@ -1,0 +1,115 @@
+.hero{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+
+    .hero-description{
+        width: 50%;
+        text-align: center;
+    }
+
+    .link{
+        margin-top: 20px;
+        color: rgb(87, 132, 172);
+    }
+}
+
+.profil-container{
+    width: 90%;
+    margin: 20px auto;
+    height: 200vh;
+
+    .profil-content{
+        width: 100%;
+        margin-top: 50px;
+
+        .left-content{
+            img{
+                width: 700px;
+                height: 400px;
+            }
+            float: left;
+            width: 55%;
+            h3{
+                padding-top: 50px;
+                font-weight: 700;     
+            }
+        }
+        .right-content{
+            float: right;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            
+            .box-part{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 30px;
+
+                .box{
+                    width: 500px;
+                    height: 69px;
+                    background-color: #E4E2E2;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-transform: uppercase;
+                }
+                input{
+                    width: 500px;
+                    height: 69px; 
+                    border: none;
+                    color: white;
+                    background: rgb(40,129,180);
+                    background: linear-gradient(90deg, rgba(40,129,180,1) 0%, rgba(109,207,214,1) 47%);
+                }
+
+               
+            }
+
+            h3{
+                margin-top: 95px;
+            }
+
+            .ligne{
+                width: 100%;
+                font-weight: 700; 
+            }
+
+            i{
+                color: rgb(182, 182, 51);
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            textarea{
+                background-color: #CBDEF0;
+                border: none;
+                resize: none;
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            input{
+                margin-top: 20px;
+                width: 227px;
+                height: 50px;
+                position: relative;
+                background: rgb(40,129,180);
+                background: linear-gradient(90deg, rgba(40,129,180,1) 0%, rgba(109,207,214,1) 47%);
+                border: none;
+                color: white;
+            }
+
+            .comment-section{
+                margin-top: 30px;
+            }
+            
+        }        
+    }
+}
